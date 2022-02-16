@@ -31,7 +31,14 @@
     </p>
 5. Crea un usuari anomenat asix en el sistema operatiu i en SGBD de tal manera que aquest usuari del sistema operatiu no hagi d'introduir l'usuari i password cada vegada que cridem al client mysql?
     - Creem l'usuari al Centos: `sudo adduser asix`
-    - Creem l'usuari a la base de dades i li donem permissos ``
+    - Creem l'usuari a la base de dades i li donem permissos `CREATE USER 'asix'@'%' IDENTIFIED by 'patata';` ``GRANT ALL PRIVILEGES ON * . * TO 'asix'@'%';`
+    - Afegim al fitxer de configuració *my.cnf* les següents línies i comprovem:
+     <p align="center">
+    <img width= "50%" src="https://i.imgur.com/HItLYM4.png">
+    </p>
+     <p align="center">
+    <img width= "50%" src="https://i.imgur.com/HMUYSk6.png">
+    </p>
     
 6. El servei de MySQL (mysqld) escolta al port 3306. Quina modificació/passos caldrien fer per canviar aquest port a 33306 per exemple?
 
