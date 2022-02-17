@@ -19,8 +19,14 @@
     - Configurem el fitxer *my.cnf*
     - Sota l'opció [mysqld] afegim una variable anomenada `port=33306`. Guardem el fitxer i arrenquem el servei mysqld
     <p align="center">
-    <img width= "50%" src="https://i.imgur.com/Iuj0mfL.png">
+    <img width= "50%" src="https://i.imgur.com/pdUPeww.png">
     </p>
+4. Un cop finalitzada la instal·lació i veure que funciona, mostra el resultat de la comanda `ps -ef | grep mysql`
+    <p align="center">
+    <img width= "50%" src="https://i.imgur.com/YWz3q2j.png">
+    </p>
+5. 
+6. 
   
 
     
