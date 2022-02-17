@@ -41,4 +41,11 @@
     </p>
     
 6. El servei de MySQL (mysqld) escolta al port 3306. Quina modificació/passos caldrien fer per canviar aquest port a 33306 per exemple?
+    - Aturem el servei mysqld
+    - Configurem el fitxer *my.cnf*
+    - Sota l'opció [mysqld] afegim una variable anomenada `port=33306`. Guardem el fitxer i arrenquem el servei mysqld
+    <p align="center">
+    <img width= "50%" src="https://i.imgur.com/Iuj0mfL.png">
+    </p>
 
+    
