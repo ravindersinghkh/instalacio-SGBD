@@ -25,9 +25,11 @@
     <p align="center">
     <img width= "50%" src="https://i.imgur.com/YWz3q2j.png">
     </p>
-5. 
-6. 
-  
-
-    
-
+5. Quines són les característiques principals que ofereix MySQL 8.0 enfront de la 5.7
+    - *Sintaxi estesa de JSON, noves funcions, ordenació millorada i actualitzacions parcials*
+    - *Suport de geografia GIS, dades espacials conscients de SRS (Sistemes de referència espacial)*
+    - *Fiabilitat de les sentències més segures i les metadades s'emmagatzemen en un únic diccionari de dades transaccional amb l’ajuda d’InnoDB*
+    - *Millores significatives a l'esquema de rendiment, l'esquema d'informació, les variables de configuració i el registre d'errors*
+    - *Gestió remota, millor gestió d’espai de taules a l'hora de fer Undo i nou DDL instantani*
+    - *Nova autenticació per defecte, Rols SQL i més fortalesa de la contrasenya*
+    - *Millora amb el motor InnoDB en les càrregues de treball de lectura/escriptura i càrregues de treball de I/O*
