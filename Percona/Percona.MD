@@ -31,7 +31,7 @@
     </p>
 5. Crea un usuari anomenat asix en el sistema operatiu i en SGBD de tal manera que aquest usuari del sistema operatiu no hagi d'introduir l'usuari i password cada vegada que cridem al client mysql?
     - Creem l'usuari al Centos: `sudo adduser asix`
-    - Creem l'usuari a la base de dades i li donem permissos `CREATE USER 'asix'@'%' IDENTIFIED by 'patata';` ``GRANT ALL PRIVILEGES ON * . * TO 'asix'@'%';`
+    - Creem l'usuari a la base de dades i li donem permissos `CREATE USER 'asix'@'%' IDENTIFIED by 'patata';` `GRANT ALL PRIVILEGES ON * . * TO 'asix'@'%';`
     - Afegim al fitxer de configuració *my.cnf* les següents línies i comprovem:
      <p align="center">
     <img width= "50%" src="https://i.imgur.com/HItLYM4.png">
