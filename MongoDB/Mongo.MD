@@ -28,14 +28,17 @@
 2. Per fer la connexió, utilitzarem el software *Robo 3T*, també podem utilitzar la pròpia Shell creada per Mongo, anomeada *mongosh*
 3. En el software *Robo 3T* creem una connexió nova
     <p align="center">
-    <img width= "30%" src="https://i.imgur.com/zv5pFBT.png">
+    <img width= "50%" src="https://i.imgur.com/zv5pFBT.png">
     </p>
+    <p align="center">IP de la màquina</p>
     <p align="center">
     <img width= "30%" src="https://i.imgur.com/909qadC.png">
     </p>
+    <p align="center">Dades del usuari de mongoDB</p>
     <p align="center">
     <img width= "30%" src="https://i.imgur.com/mdfkY5R.png">
     </p>
+    <p align="center">Activem el protocol SSH per connectar-nos de manera segura i posem les dades del usuari de la màquina virtual</p>
     <p align="center">
     <img width= "30%" src="https://i.imgur.com/DbtA2Q9.png">
     </p>
